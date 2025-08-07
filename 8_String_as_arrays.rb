@@ -44,3 +44,6 @@ puts str      # "Hello"
 removed_char = str.slice!(1)  # Removes 'e'
 puts str      # "Hllo"
 puts removed_char  # "e"
+
+puts str.gsub('lo', 'y')  # "Hhy"
+puts str.sub('H', 'h')  # "hllo"
